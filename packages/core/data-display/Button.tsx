@@ -1,5 +1,11 @@
 import * as React from "react";
-export const Button = ({ children, onClick }) => {
+
+interface ButtonProps {
+  onClick: () => void;
+  children: React.ReactNode;
+}
+
+export const Button = ({ children, onClick } : ButtonProps) => {
   return <button onClick={onClick} type="submit">{children}</button>;
 };
 
