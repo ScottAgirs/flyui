@@ -1,5 +1,11 @@
 # @flyui/theme
 
+## 0.1.2
+
+### Patch Changes
+
+- Add Button types
+
 ## 0.0.2
 
 ### Patch Changes
