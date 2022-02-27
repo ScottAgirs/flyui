@@ -3,6 +3,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+// TODO: Fix import mapping
+import { Button } from "core"
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -34,7 +37,7 @@ const Home: NextPage = () => {
 
           <a href="/learn" className={styles.card}>
             <div>
-              <button>Example Button</button>
+              <Button>Example Button</Button>
             </div>
           </a>
           
