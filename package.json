@@ -22,20 +22,17 @@
   },
   "turbo": {
     "pipeline": {
+      "dev": {
+        "cache": false
+      },
       "build": {
         "dependsOn": [
           "^build"
         ],
         "outputs": [
-          "dist/**",
-          ".next/**"
+          ".next/**",
+          "dist/**"
         ]
-      },
-      "lint": {
-        "outputs": []
-      },
-      "dev": {
-        "cache": false
       }
     }
   },
