@@ -5,8 +5,16 @@ interface ButtonProps {
   children: React.ReactNode;
 }
 
-export const Button = ({ children, onClick } : ButtonProps) => {
-  return <button onClick={onClick} type="submit">{children}</button>;
+
+export const Button = ({ children, onClick }: ButtonProps) => {
+  return (
+    <button 
+      className="bg-blue-300 px-2 py-1.5 rounded focus:ring-2 focus:ring-offset-2"
+      onClick={onClick} type="submit"
+    >
+      {children}
+    </button>
+  );
 };
 
 Button.defaultProps = {

@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.1.3
+
+### Patch Changes
+
+- Disable TS types
+
 ## 0.1.2
 
 ### Patch Changes
