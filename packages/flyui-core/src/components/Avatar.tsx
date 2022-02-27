@@ -1,6 +1,6 @@
 interface AvatarProps {
   src?: string
-  size?: number
+  size?: number | string
   className?: string
 }
 
@@ -11,13 +11,16 @@ export const Avatar = ({ src, size = 12 }: AvatarProps) => {
     // @ts-ignore
     typeof size === 'string' && size.match(/^[0-9]*(px|em|rem|%)$/);
   const isCssString = Boolean(cssStringParts);
-  const isNumber = typeof size === 'number';
+  const isNumber = typeof size === 'number' || Number.isInteger(parseInt(size, 10));
   const isNamedSize = typeof size === 'string' && namedSizes.includes(size);
+
 
   const sizeValue = isCssString
     ? `[${size}]`
-    : isNumber
+    : (isNumber && size > 14)
     ? `[${size}px]`
+    : (isNumber && size < 15)
+    ? size
     : isNamedSize
     ? size
     : 'base';

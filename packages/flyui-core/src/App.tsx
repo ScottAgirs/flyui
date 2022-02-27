@@ -14,13 +14,15 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
 
-        <Avatar />
+        <Avatar size={"12="} />
 
         <Button 
           className=''
         >Hi</Button>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button
+            className="bg-orange-400 h-sm"
+          type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
