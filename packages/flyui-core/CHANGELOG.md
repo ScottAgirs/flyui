@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.1.26
+
+### Patch Changes
+
+- Add sizing checks on Avatar
+
 ## 0.1.25
 
 ### Patch Changes
