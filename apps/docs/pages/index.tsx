@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { Button } from "core"
+import { Button } from "@flyui/core"
 
 const Home: NextPage = () => {
   return (

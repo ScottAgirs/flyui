@@ -8,12 +8,11 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: './src/index.ts',
+      entry: path.resolve(__dirname, 'src/index.ts'),
       name: "@flyui/core",
       formats: ['cjs', 'es', 'umd'],
       fileName: (format) => `index.${format}.js`,
     },
-    outDir: 'dist',
     rollupOptions: {
       external: ['react', 'react-dom'],
     },
