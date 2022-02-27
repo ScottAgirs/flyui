@@ -7,8 +7,14 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.es.js",
+  "main": "./dist/flyui.umd.js",
+  "module": "./dist/flyui.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/flyui.es.js",
+      "require": "./dist/flyui.umd.js"
+    }
+  },
   "types": "./dist/src/index.d.ts",
   "dependencies": {
     "react": "^17.0.2",
