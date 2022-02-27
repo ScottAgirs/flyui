@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.24
+
+### Patch Changes
+
+- Classes are now picked up from core
+- Updated dependencies
+  - @flyui/core@0.1.24
+  - @flyui/utils@0.1.24
+
 ## 0.1.23
 
 ### Patch Changes

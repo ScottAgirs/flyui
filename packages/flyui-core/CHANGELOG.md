@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.1.24
+
+### Patch Changes
+
+- Classes are now picked up from core
+
 ## 0.1.23
 
 ### Patch Changes
