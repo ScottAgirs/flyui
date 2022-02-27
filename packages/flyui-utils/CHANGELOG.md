@@ -1,5 +1,11 @@
 # @flyui/utils
 
+## 0.1.23
+
+### Patch Changes
+
+- Add avatar demo
+
 ## 0.1.22
 
 ### Patch Changes

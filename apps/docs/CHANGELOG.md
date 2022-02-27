@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.23
+
+### Patch Changes
+
+- Add avatar demo
+- Updated dependencies
+  - @flyui/core@0.1.23
+  - @flyui/utils@0.1.23
+
 ## 0.1.22
 
 ### Patch Changes
