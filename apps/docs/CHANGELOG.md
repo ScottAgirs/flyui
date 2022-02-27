@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.20
+
+### Patch Changes
+
+- Workspace various patches
+- Updated dependencies
+  - @flyui/core@0.1.20
+  - @flyui/utils@0.1.20
+
 ## 0.1.19
 
 ### Patch Changes
