@@ -7,8 +7,10 @@ export default function Docs() {
   }, []);
   return (
     <div>
-      <h1>Acme Documentation</h1>
-      <Button>Click me</Button>
+      <h1>Acme Documentation</h1>.
+      
+      <button className="bg-slate-400">Click me</button>
+      <Button onClick={()=>alert("Hi")}>Click me</Button>
     </div>
   );
 }
