@@ -1,0 +1,10 @@
+{
+  "exclude": ["../design-system/apps/docs/node_modules"],
+  "extends": "@flyui/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "rootDir": "../design-system/apps/docs/src",
+    "outDir": "../design-system/apps/docs/dist",
+    "incremental": true
+  },
+  "include": ["../design-system/apps/docs/src", "../design-system/apps/docs/next-env.d.ts"]
+}

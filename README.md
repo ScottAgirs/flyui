@@ -1,55 +1,62 @@
+# Turborepo Design System starter
+
+This is an official React design system starter powered by Turborepo.
+
+## What's inside?
+
+This Turborepo includes the following packages and apps:
+
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-## Setup
-### **Develop**
+- `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org)
+- `@flyui/core`: core React components
+- `@flyui/utils`: shared React utilities
+- `@flyui/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
+- `eslint-preset-acme`: ESLint preset
 
-To develop all apps and packages, run the following command:
+Each package and app is 100% [Typescript](https://www.typescriptlang.org/).
 
-- `cd flyui && pnpm run dev`
+### Utilities
 
-### **Install packages**
+This turborepo has some additional tools already setup for you:
 
-For the sake of example, we will install a package to our `/ui` package
+- [Typescript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
 
-- `...TODO:`
+## Using this example
 
+We do not have a starter yet in `create-turbo` for this quite yet. If you want to use this in the interim, you run the following command:
 
-### **Build**
-
-You would want to build before ...
-
-To build all apps and packages, run the following command:
-
+```sh
+npx degit vercel/turborepo/examples/design-system design-system
+cd design-system
+yarn install
+git init . && git add . && git commit -m "Init"
 ```
-cd flyui
-pnpm run build
+
+### Changing the NPM organization scope
+
+The NPM organization scope for this design system starter is `@acme`. To change this, it's a bit manual at the moment, but you'll need to do the following:
+
+- Rename folders in `packages/*` to replace `acme` with your desired scope
+- Search and replace `acme` with your desired scope
+- Re-run `yarn install`
+
+### Publishing packages
+
+#### NPM
+
+If you want to publish package to the public NPM registry and make them publicly available, this is already setup for you.
+
+To publish packages to a private NPM organization scope, **remove** the following from each of the `package.json`'s
+
+```diff
+- "publishConfig": {
+-  "access": "public"
+- },
 ```
-### Remote Caching
 
-Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+#### GitHub Package Registry
 
-By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-- `cd flyui && pnpx turbo login`
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-- `pnpx turbo link`
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/features/pipelines)
-- [Caching](https://turborepo.org/docs/features/caching)
-- [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/features/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+See [Working with the npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-publishconfig-in-the-packagejson-file)
