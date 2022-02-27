@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button } from '.'
+import { Avatar, Button } from '.'
 import './App.css'
 
 // @ts-ignore
@@ -13,6 +13,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
+
+        <Avatar />
 
         <Button 
           className=''
