@@ -9,12 +9,11 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/index.ts',
-      formats: ['cjs', 'es'],
-      fileName: (format) => `index.${format}.js`,
+      name: "flyui",
+      formats: ['cjs', 'es', 'umd'],
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
-      input: path.resolve(__dirname, 'src/index.ts')
     },
   },
 })
