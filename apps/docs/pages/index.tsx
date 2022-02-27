@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-// TODO: Fix import mapping
 import { Button } from "core"
 
 const Home: NextPage = () => {
