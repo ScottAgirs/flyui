@@ -42,5 +42,6 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.20.0"
-  }
+  },
+  "packageManager": "pnpm@6.32.1"
 }
