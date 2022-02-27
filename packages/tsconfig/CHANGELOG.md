@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.1.16
+
+### Patch Changes
+
+- Add .npmignore
+
 ## 0.1.15
 
 ### Patch Changes
