@@ -1,5 +1,11 @@
 # eslint-preset-acme
 
+## 0.1.22
+
+### Patch Changes
+
+- Vite wiring [WIP]
+
 ## 0.1.21
 
 ### Patch Changes

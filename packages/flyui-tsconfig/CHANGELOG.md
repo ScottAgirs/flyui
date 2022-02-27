@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.1.21
+
+### Patch Changes
+
+- Vite wiring [WIP]
+
 ## 0.1.20
 
 ### Patch Changes

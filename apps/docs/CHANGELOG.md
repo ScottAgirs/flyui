@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.22
+
+### Patch Changes
+
+- Vite wiring [WIP]
+- Updated dependencies
+  - @flyui/core@0.1.22
+  - @flyui/utils@0.1.22
+
 ## 0.1.21
 
 ### Patch Changes
