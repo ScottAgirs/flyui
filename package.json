@@ -12,6 +12,10 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "bundledDependencies": [
+    "@flyui/core",
+    "@flyui/theme"
+  ],
   "devDependencies": {
     "prettier": "^2.5.1",
     "turbo": "latest"
