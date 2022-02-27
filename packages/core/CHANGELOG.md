@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.1.4
+
+### Patch Changes
+
+- d11f5a6: chore: Add test tailwind classes
+
 ## 0.1.3
 
 ### Patch Changes
