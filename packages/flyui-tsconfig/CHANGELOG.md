@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.1.24
+
+### Patch Changes
+
+- Added AvatarProps
+
 ## 0.1.23
 
 ### Patch Changes

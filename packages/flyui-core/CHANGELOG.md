@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.1.25
+
+### Patch Changes
+
+- Added AvatarProps
+
 ## 0.1.24
 
 ### Patch Changes

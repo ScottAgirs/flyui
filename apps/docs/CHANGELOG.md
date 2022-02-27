@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.25
+
+### Patch Changes
+
+- Added AvatarProps
+- Updated dependencies
+  - @flyui/core@0.1.25
+  - @flyui/utils@0.1.25
+
 ## 0.1.24
 
 ### Patch Changes
