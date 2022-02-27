@@ -1,7 +1,6 @@
 {
   "name": "@flyui/core",
-  "private": true,
-  "version": "0.1.20",
+  "version": "0.1.21",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,6 +11,7 @@
   ],
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
+  "types": "./dist/src/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/index.es.js",

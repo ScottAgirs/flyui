@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.1.21
+
+### Patch Changes
+
+- Overhauld to Vite + TW
+- Updated dependencies
+  - @flyui/core@0.1.21
+  - @flyui/utils@0.1.21
+
 ## 0.1.20
 
 ### Patch Changes
