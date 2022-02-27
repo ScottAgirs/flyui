@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.1.10
+
+### Patch Changes
+
+- vite.rollupOptions.input
+
 ## 0.1.9
 
 ### Patch Changes
