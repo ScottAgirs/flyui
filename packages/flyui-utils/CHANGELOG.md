@@ -1,5 +1,11 @@
 # @flyui/utils
 
+## 0.2.0
+
+### Minor Changes
+
+- Init Presets
+
 ## 0.1.25
 
 ### Patch Changes

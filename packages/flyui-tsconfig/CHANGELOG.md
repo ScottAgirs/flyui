@@ -1,5 +1,11 @@
 # tsconfig
 
+## 0.2.0
+
+### Minor Changes
+
+- Init Presets
+
 ## 0.1.24
 
 ### Patch Changes
