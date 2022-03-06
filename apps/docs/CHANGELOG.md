@@ -1,5 +1,14 @@
 # @flyui/docs
 
+## 0.2.1
+
+### Patch Changes
+
+- Build
+- Updated dependencies
+  - @flyui/utils@0.2.1
+  - @flyui/core@0.2.1
+
 ## 0.2.0
 
 ### Minor Changes

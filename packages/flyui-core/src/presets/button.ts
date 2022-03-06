@@ -1,4 +1,4 @@
-const buttonClassNames = {
+export const buttonClassNames = {
   transition: 'transition-all duration-200',
   // Variants + ColorSchemes
   ghost: {
