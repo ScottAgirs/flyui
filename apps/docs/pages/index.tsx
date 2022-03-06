@@ -9,7 +9,7 @@ export default function Docs() {
     <div>
       <h1>Acme Documentation</h1>.
       
-      <Avatar />
+      <Avatar  />
 
       <Button>FlyUI Nude</Button>
       
