@@ -1,5 +1,11 @@
 # @flyui/core
 
+## 0.2.2
+
+### Patch Changes
+
+- export buttonClassNames
+
 ## 0.2.1
 
 ### Patch Changes
